@@ -1,48 +1,42 @@
 body {
-  background-color: #222; /* Fundo escuro para destacar o labirinto */
-  color: #eee; /* Cor clara para o texto */
-  font-family: Arial, sans-serif; /* Fonte simples e legível */
-  text-align: center; /* Centraliza o texto e conteúdo */
-  margin: 20px; /* Espaço ao redor da página */
+  background-color: #222;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
 }
 
 #labirinto {
   display: grid; /* Usa grid CSS para layout do labirinto */
-  grid-template-columns: repeat(20, 25px); /* 20 colunas de 25px cada (fixo) */
-  grid-gap: 2px; /* Espaço entre as células */
-  justify-content: center; /* Centraliza o grid horizontalmente */
-  margin-top: 20px; /* Espaço acima do labirinto */
+  grid-template-columns: repeat(20, 25px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .cell {
-  width: 25px; /* Largura da célula */
-  height: 25px; /* Altura da célula */
-  border-radius: 4px; /* Bordas arredondadas para suavizar visual */
-  transition: background-color 0.3s ease; /* Transição suave para mudança de cor */
+  width: 25px;
+  height: 25px; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /*Transição suave de cor*/
 }
 
 .parede {
-  background-color: #555; /* Cor cinza escura para paredes */
+  background-color: #555;
 }
 
 .caminho {
-  background-color: #eee; /* Cor clara para caminhos livres */
+  background-color: #eee;
 }
 
 .saida {
-  background-color: #2ecc40; /* Verde vivo para a saída */
+  background-color: #2ecc40;
 }
 
 .visitado {
-  background-color: #3498db; /* Azul para as células visitadas */
+  background-color: #3498db;
 }
 
 .backtrack {
-  background-color: #e74c3c; /* Vermelho para os retrocessos no caminho */
+  background-color: #e74c3c;
 }
-
-.caminho-final {
-  background-color: #f1c40f; /* Amarelo para o caminho final encontrado */
-}
-
-
