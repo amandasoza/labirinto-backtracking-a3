@@ -33,3 +33,4 @@ Este projeto implementa a resolução de um labirinto utilizando a técnica de *
    ```bash
    git clone https://github.com/seu-usuario/labirinto-backtracking.git
    cd labirinto-backtracking
+2. Abrir o arquivo index.html
