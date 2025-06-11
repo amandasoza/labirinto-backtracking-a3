@@ -1,25 +1,30 @@
 # 🧠 Labirinto com Backtracking
 
-Este projeto implementa a resolução de um labirinto utilizando a técnica de **backtracking** com **visualização animada** feita em **HTML, CSS e JavaScript puros**.
+Este projeto implementa a resolução de um labirinto utilizando a técnica de **backtracking** com **visualização animada** em **HTML, CSS e JavaScript puros**.
 
-> 🧪 Projeto desenvolvido como parte da A3 da disciplina de **Estruturas de Dados e Análise de Algoritmos**.
+> 🎓 Projeto desenvolvido como parte da A3 da disciplina de **Estruturas de dados e análise de algoritmos**.
 
 ---
 
 ## 💡 Funcionalidades
 
-- Visualização em tempo real da busca por caminhos usando recursão.
-- Destaque para células **visitadas**, **retrocedidas** e **caminho final**.
-- Interface simples com grid CSS.
-- Ordem de exploração aleatória a cada execução (via `shuffle`).
+- Visualização passo a passo da busca usando **recursão com tentativa e erro**.
+- Destaque para células:
+  - **Visitadas** (em azul)
+  - **Retrocedidas** (em vermelho)
+  - **Saída** (em verde)
+- O algoritmo **embaralha a ordem das direções** a cada execução, simulando decisões não determinísticas.
+- Interrupção da busca assim que a saída é encontrada.
+- Interface simples e responsiva usando **CSS Grid**.
+- (Opcional) Botão de reinício da busca sem recarregar a página.
 
 ---
 
-## 🧱 Tecnologias usadas
+## 🧱 Tecnologias utilizadas
 
-- HTML5
-- CSS3 (Grid Layout)
-- JavaScript ES6+
+- **HTML5**
+- **CSS3** (Grid Layout)
+- **JavaScript ES6+**
 
 ---
 
@@ -29,5 +34,3 @@ Este projeto implementa a resolução de um labirinto utilizando a técnica de *
    ```bash
    git clone https://github.com/seu-usuario/labirinto-backtracking.git
    cd labirinto-backtracking
-
-
