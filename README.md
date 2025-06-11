@@ -16,7 +16,6 @@ Este projeto implementa a resolução de um labirinto utilizando a técnica de *
 - O algoritmo **embaralha a ordem das direções** a cada execução, simulando decisões não determinísticas.
 - Interrupção da busca assim que a saída é encontrada.
 - Interface simples e responsiva usando **CSS Grid**.
-- (Opcional) Botão de reinício da busca sem recarregar a página.
 
 ---
 
